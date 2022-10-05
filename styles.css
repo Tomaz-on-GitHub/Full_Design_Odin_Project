@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding:0;
+    font-family: 'roboto',sans-serif;
+}
+
+header{
+    background-color: #1f2937;
+    padding:1em 13em;    /*zaradi primerjave dal iz 10 na 13! */
+}
+footer {
+    background-color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.logo {
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+/*positioning of the navigation and logo */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+}
+
+
+a {
+    padding:0 0 0 1em;
+    font-size: 18px;
+    color:#e5e7eb;
+    
+}
+
+/* hero section */
+
+.hero {
+    display:flex;
+    padding:7em 0;
+    gap:2em;
+    justify-content:  center;
+    align-items: center;
+    
+
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    flex:1;
+}
+
+.hero .right {
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height:215px;
+   justify-content: center;
+   align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+  /*  padding:0.5em 0; */
+}
+
+p {
+  /*  padding:1em 0; */
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+button {
+    font-size: 18px;
+    color:#e5e7eb;
+    padding:7px 1em;
+    width:120px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+}

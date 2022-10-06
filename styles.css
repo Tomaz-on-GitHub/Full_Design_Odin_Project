@@ -130,3 +130,62 @@ h2 {
     text-align: center;
     padding: 0 0.5em;
 }
+
+/* the section quote */
+.quote {
+    padding:7em 13em 7em 13em;
+   
+}
+.quotetext {
+    font-size: 36px;
+    color:#1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quoteauthor {
+    font-size: 24px;
+    text-align: right;
+    font-weight:bolder;
+}
+
+/* the section call to action */
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:5em 13em 5em 13em;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding:3em;
+}
+
+h3 {
+    color:#e5e7eb;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button2 {
+    font-size: 18px;
+    font-weight: 700;
+    color:#e5e7eb;
+    padding:0 2em;
+    height:35px;
+    margin:2px;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* the section footer */
+
+footer {
+    background-color: #1f2937;
+    color: #FFF;
+    text-align: center;
+    padding: 2em 0;
+}
